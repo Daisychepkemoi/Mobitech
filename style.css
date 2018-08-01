@@ -1,0 +1,319 @@
+
+
+body{
+	height:auto;
+	width:auto;
+	background-color:white;
+}
+.body{
+	height:25px;
+	margin-top:0px;
+	
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+
+	background-color:#E1E1E1;
+}
+.body div ul{
+  list-style-type: none;
+ text-decoration: none;
+
+}
+
+.body div ul li{
+  list-style-type: none;
+  display: inline;
+  margin-left:5%;
+  margin-right: 10%;
+  color: black;
+  font-style: italic;
+  text-decoration:none;
+}
+a{
+  text-decoration: none;
+}
+.body img{
+  height: 20px;
+  width: 20px;
+}
+ .head{
+	height:90px;
+	width:100%;
+  	margin: 0px;
+  /*position: fixed;
+	overflow: hidden;*/
+  top: 0px;
+	background-color:white;
+
+
+}
+#oone{
+	
+	margin-left: 400px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+.sticky + p {
+  padding-top: 102px;
+}
+.head .tittle{
+	height: 60%;
+	width: 35%;
+	float: left;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.head .navigation{
+	height: 60%;
+	width: 64%;
+	float: right;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.navigation .navv{
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white  !important;
+}
+.tittle h1{
+	font-size: 40px;
+	font-style: bold;
+	margin-left: 15%;
+	padding-top: 0px;
+	color: blue;
+	padding-bottom: 20px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#navs{
+  background-color: #D4D4FF !important;
+  border-color: white !important;
+}
+#navss ul li{
+  color: yellow;
+  background-color:#D4D4FF  !important;
+}
+
+hr{
+  font-weight: 2px;
+  border-width: 5px;
+  color: red;
+}
+ 
+ .contents{
+  /*background-color: gray;*/
+  height: 900px;
+  width: 100%;
+
+}
+.contents .containers{
+  height: 900px;
+  width: 98%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /*background-color: white;*/
+
+  background-image: url(images/phones/woman6.jpg);
+  background-size: cover;
+
+  
+}
+.containers .navsbar{
+  
+  /*background-color: red;*/
+ 
+  
+  width: 80%;
+  height: 35%;
+  margin-left: 200px;
+
+  
+   background-size: cover;
+}
+.navsbar h2{
+  padding-top: 100px;
+  padding-left: 150px;
+  font-size: 32px;
+  color: #696969;
+  text-transform: uppercase;
+}
+.navsbar h3{
+  padding-top: 2px;
+  font-size: 24px;
+  padding-left: 150px;
+  color: #696969;
+}
+.navsbar button{
+  width: 200px;
+  font-size: 24px;
+}
+.containers .navibar{
+  height: 36%;
+  width: 90%;
+  /*background-color: red;*/
+  margin-left: 5%;
+}
+.navibar .pone{
+  height: 90%;
+  margin: 2%;
+  width: 20%;
+  background-color: #55FF55;
+  display: inline-block;
+}
+.pone h3{
+padding-left: 25px;
+font-size: 16px;
+padding-left: 25px;
+padding-top: 5px;
+}
+ins del {
+  font-size: 16px;
+}
+.pone button{
+  margin-left: 60px;
+}
+.pone .image img:hover{
+  opacity: 0.9;
+  overflow: visible;
+}
+.shipment{
+  clear: both;
+  height: 400px;
+  width: 100%;
+  /*background-color: #00AAFF;*/
+}
+
+.shipment .container .rrow{
+  display: inline-block;
+  height: 250px;
+  width:20%;
+  border-width: 1px;
+  border-style: groove;
+  background-color: white;
+  margin: 2%;
+ 
+}
+.rrow .single-promo{
+  height: 90%;
+  margin: 5%;
+background-color: white;
+  width: 90%;
+}
+.single-promo p{
+  padding: 20%;
+  color: black;
+  background-color: white;
+  font-size: 24px;
+}
+.footer{
+/*background: linear-gradient(#1e130c,#9a8478);*/
+  /*background-color:background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) ;*/
+  height: 400px;
+  /*background: linear-gradient(black,black,black,#999966 ,black);*/
+/*background:linear-gradient(black,#ba8b02,#181828);*/
+background: #2D2D2D;
+  width: 100%;
+  clear: both;
+
+}
+  .footer .help{
+width: 21%;
+height: 70%;
+margin: 1.5%;
+/*background-color: red;
+*/
+display: inline-block;
+border-radius: 2px;
+
+  }
+  .help li{
+    list-style-type: none;
+    padding: 10px;
+    color: #A5A5A5;
+  }
+  .footer .conc{
+    height: 20%;
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+  .conc p{
+    padding-top: 10px;
+    padding-left: 30%;
+    font-size: 16px;
+    color: #969696;
+     }
+     .footer .hellp{
+  height: 80%;
+  width: 45%;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  float: left;
+  /*background-color: ;*/
+
+}
+.footer .helper{
+ height: 80%;
+  width: 45%;
+  margin-top: 1.5%;
+  margin-right: 1.5%;
+  float: right;
+  /*background-color: blue;*/
+}
+..footer .helpest{
+   height: 90%;
+  width: 25%;
+  float: left;
+margin-left: 30%;
+  background-color: gray;
+}
+.footer .conce{
+  clear: both;
+  height: 20%;
+  /*background-color: yellow;*/
+}
+
+.hellp ul li {
+  list-style-type: none;
+  margin-left: 100px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+.helper .contactus{
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 60%;
+  /*background-color: white;*/
+}
+.contactus h4{
+  padding-left: 100px;
+  padding-top: 20px;
+  color: white;
+}
+.contactus h5{
+  padding-left: 100px;
+  padding-top: 20px;
+  color: white;
+}.contactus ul li {
+  list-style-type: none;
+  margin-left: 100px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+.conce h3{
+  margin-left: 35%;
+  font-size: 20px;
+  color: white
+}
